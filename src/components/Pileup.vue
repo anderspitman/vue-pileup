@@ -28,7 +28,7 @@
 
 <script>
 
-import igv from '../../lib/igv.esm'
+import igv from 'igv'
 
 
 export default {
@@ -160,10 +160,11 @@ function launchIGV(referenceURL, locus, tracks) {
       type: 'variant',
       format: 'vcf',
       url: tracks[0].variantURL,
+      indexURL: tracks[0].variantIndexURL,
     })
   }
 
-  const url = 'https://s3.amazonaws.com/static.iobio.io/dev/igv.iobio.io/index.html?config=' + JSON.stringify(igvConfig)
+  const url = 'https://igv.iobio.io?config=' + JSON.stringify(igvConfig)
   window.open(url, '_blank')
 }
 

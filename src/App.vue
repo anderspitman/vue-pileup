@@ -25,12 +25,14 @@ export default {
           alignmentURL: "https://s3.amazonaws.com/iobio/samples/bam/NA12878.exome.bam",
           alignmentIndexURL: "https://s3.amazonaws.com/iobio/samples/bam/NA12878.exome.bam.bai",
           variantURL: "https://s3.amazonaws.com/iobio/samples/vcf/platinum-exome.vcf.gz",
+          variantIndexURL: "https://s3.amazonaws.com/iobio/samples/vcf/platinum-exome.vcf.gz.tbi",
         },
         {
           name: 'Mother',
           alignmentURL: "https://s3.amazonaws.com/iobio/samples/bam/NA12878.exome.bam",
           alignmentIndexURL: "https://s3.amazonaws.com/iobio/samples/bam/NA12878.exome.bam.bai",
           variantURL: "https://s3.amazonaws.com/iobio/samples/vcf/platinum-exome.vcf.gz",
+          variantIndexURL: "https://s3.amazonaws.com/iobio/samples/vcf/platinum-exome.vcf.gz.tbi",
         },
       ]
     }
